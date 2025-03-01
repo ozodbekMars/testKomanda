@@ -2,4 +2,137 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+.main{
+    /* 2 grey */
+background: rgb(119, 119, 119);
+padding-top: 109px;
+
+}
+.hero__span{
+    color: rgb(16, 16, 16);
+font-family: Open Sans;
+font-size: 64px;
+font-weight: 800;
+line-height: 123%;
+letter-spacing: 5%;
+margin-left: 490px;
+
+}
+.hero__velosipedi{
+    margin-top: 122px;
+    border-radius: 10px;
+width: 1280px;
+padding: 122px 0;
+background: rgb(245, 117, 32);
+background-image: url("./images/pngwing.png");
+background-repeat: no-repeat;
+background-position: right;
+background-position-y: top;
+}
+.hero__tetx{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+    margin-left: 80px;
+}
+.wrapper{
+    padding-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+.hero__trade{
+    width: 400px;
+    height: 458px;
+    border-radius: 10px;
+background-image: url("./images/velik.png");
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(16, 16, 16);
+background-position-y: 200px;
+background-position-x: -70px;
+padding-top: 80px;
+}
+.trade__text{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: center;
+
+}
+.hero__zapchasti{
+    border-radius: 10px;
+   
+    background-image: url("./images/yarimbalon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 250px;
+padding-top: 29px;
+background-color: rgb(16, 16, 16);
+    width: 400px;
+    height: 216px;
+   margin-bottom: 26px;
+}
+.zapchast__text{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 5%;
+margin-left: 24px;
+}
+.hero__stanki{
+    border-radius: 10px;
+    padding-top: 29px;
+    background-color: rgb(16, 16, 16);
+        width: 400px;
+        height: 216px;
+        background-image: url("./images/image\ 40\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 200px;
+    background-position-y: 35px;
+}
+.stanki__text{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 123%;
+    letter-spacing: 5%;
+    margin-left: 24px;  
+}
+.hero__ekip{
+    border-radius: 10px;
+   
+    background-image: url("./images/shlem.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 168px;
+    background-position-y: 97px;
+padding-top: 29px;
+background-color: rgb(16, 16, 16);
+width: 400px;
+height: 216px;
+}
+.hero__velostanki{
+    border-radius: 10px;
+    padding-top: 29px;
+    background-color: rgb(16, 16, 16);
+        width: 400px;
+        height: 216px;
+        background-image: url("./images/image\ 39.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 250px;
 }
